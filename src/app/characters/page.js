@@ -6,6 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <Navbar />
+        <div>Hello World</div>
       </div>
     </main>
   );
