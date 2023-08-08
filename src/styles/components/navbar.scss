@@ -1,20 +1,13 @@
 header {
   .nav-container {
     display: flex;
-    justify-content: space-between;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
 
     a {
       text-decoration: none;
       color: #fff;
-    }
-
-    .nav-start {
-    }
-
-    .nav-end {
-      a {
-        margin: 20px;
-      }
     }
   }
 }
