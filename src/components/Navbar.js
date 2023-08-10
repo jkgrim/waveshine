@@ -1,10 +1,13 @@
 import Link from "next/link";
+import logo from "../images/main-logo.png";
 
 function Navbar() {
   return (
     <header>
       <div className="nav-container">
-        <Link href="/">Logo</Link>
+        <Link href="/">
+          <img src={logo} />
+        </Link>
         <Link href="/getting-started">Getting Started</Link>
         <Link href="/controllers">Controllers</Link>
         <Link href="/characters">Characters</Link>
