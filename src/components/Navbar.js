@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../images/waveshine-logo.png";
+import logo from "../images/main-logo.png";
 
 function Navbar() {
   return (

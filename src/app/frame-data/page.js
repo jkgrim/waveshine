@@ -7,6 +7,12 @@ export default function Home() {
       <div className={styles.description}>
         <Navbar />
       </div>
+
+      <div className="frame-data-container">
+        <a href="https://meleeframedata.com/" target="_blank">
+          Frame Data
+        </a>
+      </div>
     </main>
   );
 }
