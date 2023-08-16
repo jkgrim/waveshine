@@ -9,10 +9,34 @@ function Navbar() {
         <Link href="/">
           <Image src={logo} />
         </Link>
-        <Link href="/getting-started">Getting Started</Link>
-        <Link href="/controllers">Controllers</Link>
-        <Link href="/characters">Characters</Link>
-        <Link href="/frame-data">Frame Data</Link>
+
+        <div className="dropdown">
+          <Link href="/getting-started">Getting Started</Link>
+
+          <div className="dropdown-items">
+            <Link href="getting-started/slippi">Installing Slippi</Link>
+          </div>
+        </div>
+
+        <div className="dropdown">
+          <Link href="/controllers">Controllers</Link>
+
+          <div className="dropdown-items">
+            <Link href="/controllers/modding">Modding</Link>
+            <Link href="/controllers/styles">Styles</Link>
+            <Link href="/controllers/where-to-buy">Where to Buy</Link>
+          </div>
+        </div>
+
+        <div className="dropdown">
+          <Link href="/characters">Characters</Link>
+
+          <div className="dropdown-items">
+            <Link href="/frame-data">Frame Data</Link>
+            <Link href="/characters/discords">Character Discords</Link>
+            <Link href="/characters/tier-list">Tier List</Link>
+          </div>
+        </div>
       </div>
     </header>
   );
