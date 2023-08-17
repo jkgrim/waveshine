@@ -15,6 +15,8 @@ function Navbar() {
 
           <div className="dropdown-items">
             <Link href="getting-started/slippi">Installing Slippi</Link>
+            <Link href="getting-started/guides">Beginner Melee Guides</Link>
+            <Link href="getting-started/smash-doc">Smash Documentary</Link>
           </div>
         </div>
 
@@ -32,10 +34,13 @@ function Navbar() {
           <Link href="/characters">Characters</Link>
 
           <div className="dropdown-items">
-            <Link href="/frame-data">Frame Data</Link>
             <Link href="/characters/discords">Character Discords</Link>
             <Link href="/characters/tier-list">Tier List</Link>
           </div>
+        </div>
+
+        <div className="dropdown">
+          <Link href="/frame-data">Frame Data</Link>
         </div>
       </div>
     </header>
