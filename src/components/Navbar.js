@@ -35,7 +35,9 @@ function Navbar() {
 
           <div className="dropdown-items">
             <Link href="/characters/discords">Character Discords</Link>
-            <Link href="/characters/tier-list">Tier List</Link>
+            <Link href="/characters/tier-list-generator">
+              Tier List Generator
+            </Link>
           </div>
         </div>
 
