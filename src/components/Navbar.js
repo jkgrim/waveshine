@@ -14,9 +14,9 @@ function Navbar() {
           <Link href="/getting-started">Getting Started</Link>
 
           <div className="dropdown-items">
-            <Link href="getting-started/slippi">Installing Slippi</Link>
-            <Link href="getting-started/guides">Beginner Melee Guides</Link>
-            <Link href="getting-started/smash-doc">Smash Documentary</Link>
+            <Link href="/getting-started/slippi">Installing Slippi</Link>
+            <Link href="/getting-started/guides">Beginner Melee Guides</Link>
+            <Link href="/getting-started/smash-doc">Smash Documentary</Link>
           </div>
         </div>
 
