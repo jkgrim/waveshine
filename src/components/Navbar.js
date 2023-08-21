@@ -27,6 +27,7 @@ function Navbar() {
             <Link href="/controllers/modding">Modding</Link>
             <Link href="/controllers/styles">Styles</Link>
             <Link href="/controllers/where-to-buy">Where to Buy</Link>
+            <Link href="/controllers/button-mapper">Box Button Mapper</Link>
           </div>
         </div>
 
