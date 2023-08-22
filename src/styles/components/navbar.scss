@@ -9,11 +9,35 @@ header {
     height: 4em;
 
     .dropdown {
+      button {
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          border-bottom: 2px solid #10eafe;
+
+          a {
+            color: #10eafe;
+          }
+        }
+      }
+
+      .nav-btn {
+        height: 4em;
+        width: 175px;
+        background-color: transparent;
+        border: none;
+
+        &:hover {
+          color: #10eafe;
+        }
+      }
+
       .dropdown-items {
         display: none;
         position: absolute;
         background-color: #222;
-        min-width: 160px;
+        width: 175px;
         z-index: 1;
 
         a {
@@ -23,7 +47,7 @@ header {
           display: block;
 
           &:hover {
-            background-color: #111;
+            background-color: rgb(25, 25, 25);
             color: #10eafe;
           }
         }
@@ -37,6 +61,7 @@ header {
     }
 
     a {
+      text-align: left;
       text-decoration: none;
       color: #fff;
       transition: 0.2s ease-in-out;
@@ -44,10 +69,6 @@ header {
       img {
         height: 3em;
         width: auto;
-      }
-
-      &:hover {
-        color: #10eafe;
       }
     }
   }

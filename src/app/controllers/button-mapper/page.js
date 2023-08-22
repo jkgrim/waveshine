@@ -69,10 +69,10 @@ export default function ButtonMapper() {
         <Navbar />
 
         <div className="button-mapper-container">
-          <h1>Box Button Remapper</h1>
+          <h1>Box Button Mapper</h1>
 
           <div className="note">
-            Note: This is built purely to screenshot and share custom box
+            Note: This is purely built to screenshot and share custom box
             controller layouts.
           </div>
 

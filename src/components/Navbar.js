@@ -11,7 +11,9 @@ function Navbar() {
         </Link>
 
         <div className="dropdown">
-          <Link href="/getting-started">Getting Started</Link>
+          <button className="nav-btn">
+            <Link href="/getting-started">Getting Started</Link>
+          </button>
 
           <div className="dropdown-items">
             <Link href="/getting-started/slippi">Installing Slippi</Link>
@@ -21,7 +23,9 @@ function Navbar() {
         </div>
 
         <div className="dropdown">
-          <Link href="/controllers">Controllers</Link>
+          <button className="nav-btn">
+            <Link href="/controllers">Controllers</Link>
+          </button>
 
           <div className="dropdown-items">
             <Link href="/controllers/modding">Modding</Link>
@@ -32,7 +36,9 @@ function Navbar() {
         </div>
 
         <div className="dropdown">
-          <Link href="/characters">Characters</Link>
+          <button className="nav-btn">
+            <Link href="/characters">Characters</Link>
+          </button>
 
           <div className="dropdown-items">
             <Link href="/characters/discords">Character Discords</Link>
@@ -43,7 +49,9 @@ function Navbar() {
         </div>
 
         <div className="dropdown">
-          <Link href="/frame-data">Frame Data</Link>
+          <button className="nav-btn">
+            <Link href="/frame-data">Frame Data</Link>
+          </button>
         </div>
       </div>
     </header>
